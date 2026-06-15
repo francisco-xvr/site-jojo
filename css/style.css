@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1.2px solid #fff;
+    width: 100%;
+    z-index: 1000;
+}
+
+#cabecalho img {
+    width: 100px;
+    margin-left: 10px;
+}   
+
+#menu {
+    margin-left: auto;
+    margin-right: 10px;
+}
+#cabecalho #menu ul {
+    display: flex;
+}
+
+#cabecalho .container {
+    display: flex;
+    align-items: center;
+    padding: 10px
+}
+
+#cabecalho #menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+    transition: all 0.5s linear;
+}
+
+#cabecalho #menu a:hover {
+    text-decoration: underline;
+    scale: 1.1;
+    transition: 0.2s ease-in;
+    text-shadow: 0 0 5px #fff;
+}
+
+#cabecalho #menu ul li {
+    list-style: none;
+    position: relative;
+}
+
+#apresentacao {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#backgroundvideo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#apresentacao img {
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#apresentacao img:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+    transition: 0.2s linear;
+    
+}
+
+#apresentacao #explore {
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: rgb(110, 2, 136);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#apresentacao #explore a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#apresentacao #explore:hover {
+    background-color: rgb(87, 1, 108);
+    transform: translate(-50%, -50%) scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000000;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Arial Black', sans-serif;
+    
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+#intro {
+    scroll-margin-top: 100px;
+    margin-top: 100px;
+} 
+    
+#intro .container {
+    width:900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#intro .container p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    text-indent: 25px;
+}
+
+.lineimg {
+    display: block;
+    margin: auto;
+    width: 70px;
+}
+
+.rodape {
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 30px;
+}
+#manga {
+    margin-top: 100px;
+}
+
+#manga .container {
+    margin: 0 auto;
+}
+
+#manga .container p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: px;
+    text-indent: 25px;
+}
+
+#mangaimg{
+    width: 80px;
+    margin-top: 30px;
+}
+
+.partelogo {
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+#parte4 .partelogo,
+#parte5 .partelogo {
+    width: 400px;
+}
+
+.faixa-parte {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    min-height: 430px;
+}
+
+.contra-faixa {
+    width: 100%;
+    background-color: #c7c7c7;
+    color: #000;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    min-height: 430px;
+}
+
+.faixa-parte:hover{
+    img {
+        transform: scale(1.1);
+        transition: 0.2s ease-in-out;
+    }
+}
+
+.contra-faixa:hover{
+    img {
+        transform: scale(1.1);
+        transition: 0.2s ease-in-out;
+    }
+}
+
+.partep {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#mangaintro {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#parttitulo {
+    margin-bottom: 30px;
+}
+
+.partep h1 {
+    margin-bottom: 15px;
+}
+
+.faixa-parte h1 {
+    color: #fff;
+}
+
+.contra-faixa h1 {
+    color: #000;
+}
+
+.partpersonagem {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+}
+
+.partantagonista {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 300px;
+}           
+
+
+#extrah1 {
+    width: 910px;
+    margin-left: -20px;
+}
+
+.container #animacaop {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#animacaop p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    text-indent: 25px;
+}
+
+#animacao h1 {
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+#trailer-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#abrirTrailer {
+    width: 600px;
+    max-width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#abrirTrailer:hover {
+    transform: scale(1.03);
+}
+
+#videoModal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+}
+
+#youtubeVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+#fechar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#autor {
+    margin-top: 100px;
+}
+
+#autor h1:first-child {
+    margin-bottom: 10px;
+}
+
+#autor h2 {
+    margin-bottom: 30px;
+}
+
+#arakiimg {
+    display: block;
+    width: 250px;
+    margin: 0 auto 30px auto;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+#autorintro,
+#legado {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#autorintro p,
+#legado p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    text-indent: 25px;
+}
+
+#legadotitulo {
+    margin-top: 30px;
+}
+
+#curiosidades {
+    margin-top: 100px;
+}
+
+#curiosidadesintro {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#curiosidadesintro p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    text-indent: 25px;
+}
+
+#curiosidades .faixa-parte,
+#curiosidades .contra-faixa {
+    min-height: auto;
+    padding: 30px 10px;
+    font-size: 20px;
+}
+
+#curiosidades .partep h1 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+#curiosidades .lineimg,
+#animacao .lineimg {
+    width: 100px;
+    margin: 30px auto;
+}
+
+#jogos {
+    margin-top: 100px;
+}
+
+#jogosintro {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#jogosintro p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    text-indent: 25px;
+}
+
+#jogos .faixa-parte,
+#jogos .contra-faixa {
+    min-height: auto;
+    padding: 30px 10px;
+}
+
+#jogos .faixa-parte p,
+#jogos .contra-faixa p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+    text-indent: 25px;
+}
+
+#jogos .lineimg {
+    width: 135px;
+    margin: 30px auto;
+}
